@@ -9,9 +9,12 @@ I have a background in economics and a strong interest in programming. My goal i
 
 ## Skills
 - **Programming Languages**: HTML, CSS  
-- **Version Control**: Git, GitHub  
-- **Development Tools**: VS Code, Figma  
+- **Version Control**: Git, GitHub   
 - **Other Skills**: Data analysis, organizational planning
+
+## Development Tools
+- VS Code
+- Figma
 
 ## Education
 - **Master's Degree in Economics**  

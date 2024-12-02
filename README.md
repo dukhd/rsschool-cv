@@ -1,2 +1,3 @@
 # rsschool-cv
-CV
+[CV](https://dukhd.github.io/rsschool-cv/)
+

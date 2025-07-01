@@ -17,8 +17,8 @@ I have a background in economics and a strong interest in programming. My goal i
 - Figma
 
 ## Education
-- **Master's Degree in Economics**
-  SPSUAI, 2018[D[D[D[D[D[D[D[D[D[D[D[3~[3~[C[C[C[C[C[C[C[C[3[D[A[B[D[C[DSPSUAI, 2018[D[D[D[D[D[D[D[D[D[D[[[C[-[C *[D[D*[B[C[C[C[C[C[C[C[C[C
+- **Master's Degree in Economics**, SPSUAI, 2018
+
 ## Languages
 - **English**: B2 (Upper-Intermediate)
     + Daily practice in a professional environment with native speakers.

@@ -1,10 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background: white; /* Цвет фона за пределами блока */
+  background: white;
   display: flex;
   justify-content: center;
-/* свойства всего текста */
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -23,7 +22,7 @@ html {
   scroll-behavior: smooth;
   }
 
-  /* делаем бокс посередине с гранями */
+  /* style for main box */
 .wrapper {
   width: 100%;
   max-width: 850px;
@@ -52,7 +51,7 @@ h3, .nav-list {
   text-transform: uppercase;
 }
 
-/* ссылки все */
+/* style for links */
 a {
   text-decoration: none;
   color: #535693;
@@ -62,12 +61,12 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Стили для HEADER */
+/* style for HEADER */
 .cv-header {
   display: flex;
   justify-content: space-between;
 }
-/* Стили для левой колонки: Навигация */
+/* style for navigation */
 .navigation {
   padding: 80px;
   padding-left: 40px;
@@ -80,9 +79,10 @@ a:hover {
   list-style: none;
   padding: 0;
   margin: 0;
+  font-style: italic;
 }
 
-/* Стили для правой колонки: right-side */
+/* style for right-side */
 .right-side {
   display: flex;
   flex-direction: column;
@@ -92,7 +92,7 @@ a:hover {
   background: #E8E8E8;
 }
 
-/* Стили для блока с именем, должностью и фото */
+/* style for name and photo */
 .author-header {
   display: flex;
   justify-content: end;
@@ -106,10 +106,10 @@ a:hover {
 }
 
 .photo {
-  border-radius: 50%; /* делаем круглой фотографию */
+  border-radius: 50%;
 }
 
-/* Стили для блока с контактами */
+/* style for Contacts */
 .section-contacts {
   padding: 24px 0;
 }
@@ -148,12 +148,12 @@ a:hover {
   height: 20px;
 
 }
-/* Стили для блока summary */
+/* style for summary */
 .section-summary h2 {
   margin: 0 0 8px 0;
 }
 
-/* Стили для блока MAIN*/
+/* style for MAIN*/
 main {
 
   margin-bottom: auto;
@@ -164,7 +164,6 @@ main {
   flex-direction: column;
   gap: 40px;
   max-width: 850px;
-
 }
 .content-line ul {
   padding: 0;
@@ -172,7 +171,7 @@ main {
   padding-inline-start: 20px;
 }
 .content-line li {
-  margin-bottom: 2px; /* отступ между строками внутри спика */
+  margin-bottom: 2px;
 }
 
 .section-skills, .section-soft-skills, .section-code, .section-projects, .section-education, .section-languages{
@@ -180,9 +179,11 @@ main {
   align-items: baseline;
 
 }
-
+.section-projects a {
+  font-style: italic;
+}
 .section-skills p {
-  margin-bottom: 6px; /* отступ после language & tools */
+  margin-bottom: 6px; 
 }
 .section-skills .line-right-side {
   display: flex;
@@ -193,7 +194,7 @@ main {
   padding-inline-start: 20px;
 }
 
-/* Стили для линии */
+/* style for line */
 
 .line-left-side {
   width: 30%;
@@ -239,7 +240,7 @@ main {
   margin: 0;
 }
 
-/* Стили для блока FOOTER*/
+/* style for FOOTER*/
 .cv-footer {
   z-index: 0;
   height: 60px;

@@ -1,23 +1,51 @@
 # Diana Dukhovskaya
 
 ## Contact Information
-**Email:** k.dianavv@gmail.com  
-**Phone:** +44 0000 111 111
+**Email:** k.dianavv@gmail.com   
+**Discord:** Diana D(@dukhd)    
 
 ## Brief Self-Introduction
 Detail-oriented and analytical professional with 3+ years’ experience in operations and workflow management. Skilled at problem-solving, organizing processes, and collaborating with teams. Currently transitioning into front-end development, building practical projects and strengthening technical skills.
 
-## Skills
-- **Programming Languages**: HTML, CSS
-- **Version Control**: Git, GitHub
-- **Other Skills**: Data analysis, organizational planning
+## Soft Skills
+**Key Competencies:**
+- Accuracy and attention to detail
+- Operational efficiency
+- Problem-solving
+-------
+- Written and verbal communication
+- Time management
+- Teamwork and collaboration
+- Ability to work independently
+- Flexibility
 
-## Development Tools
+## Skills
+**Languages:**
+- HTML
+- CSS
+- Java Script
+
+**Tools:**
+- Git
+- GitHub
 - VS Code
 - Figma
+- Adobe Photoshop
+- Adobe Illustrator
 
 ## Education
-- **Master's Degree in Economics**, SPSUAI, 2018
+- Saint Petersburg State University of Aerospace and Instrumentation  
+**Specialist Diploma in Economic Security**,  
+Financial Accounting and Control in Law Enforcement Agencies  
+Sep 2013 - Jun 2018  
+**UK Framework levels:** RQF Level 6 / SCQF Level 10 / CQFW Level 6  
+**Comparable UK qualifications:** Bachelor (Honours) degree
+
+- Saint Petersburg State University of Aerospace and Instrumentation  
+**Bachelor degree, Jurisprudence**  
+Sep 2015 - Jun 2019  
+**UK Framework levels:** RQF Level 6 / SCQF Level 10 / CQFW Level 6  
+**Comparable UK qualifications:** Bachelor (Honours) degree
 
 ## Languages
 - **English**: B2 (Upper-Intermediate)

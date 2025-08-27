@@ -18,3 +18,10 @@ Detail-oriented and analytical professional with 3+ years’ experience in opera
 
 ## Education
 - **Master's Degree in Economics**, SPSUAI, 2018
+
+## Languages
+- **English**: B2 (Upper-Intermediate)
+    + Daily practice in a professional environment with native speakers.
+    + Comfortable in written and verbal communication.
+- **German**: A1
+- **Russian**: Native

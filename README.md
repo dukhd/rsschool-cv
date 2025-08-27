@@ -1,1 +1,1 @@
-https://dukhd.github.io/rsschool-cv-st1/cv
+https://dukhd.github.io/rsschool-cv/cv

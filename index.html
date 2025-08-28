@@ -95,20 +95,202 @@
       </div>
     </div>
     <div class="green__bgrnd">
-      <div class="second__screen container"></div>
+      <div class="skills__title__wrapper">
+        <h2 class="skills__title zero">kill</h2>
+        <h2 class="skills__title first">Skills</h2>
+        <h2 class="skills__title second">kills</h2>
+        <h2 class="skills__title third">kills</h2>
+        <h2 class="skills__title fourth">kills</h2>
+        <h2 class="skills__title fifth">kills</h2>
+      </div>
+      <div class="second__screen container">
+        <div class="skills__wrapper">
+          <div class="skills__languages__wrapper">
+            <h4>languages:</h4>
+            <div class="languages__icons">
+              <img src="assets/svg/skills-logo-bw/html5-logo.svg" alt="HTML logo" width="100" height="100">
+              <img src="assets/svg/skills-logo-bw/css3-logo.svg" alt="CSS logo" width="100" height="100">
+              <img src="assets/svg/skills-logo-bw/javascript-logo.svg" alt="JS logo" width="100" height="100">
+            </div>
+          </div>
+          <div class="skills__tools__wrapper">
+            <h4>tools:</h4>
+            <div class="tools__icons">
+              <img src="assets/svg/skills-logo-bw/git-logo.svg" alt="HTML logo" width="100" height="100">
+              <img src="assets/svg/skills-logo-bw/github-logo.svg" alt="CSS logo" width="100" height="100">
+              <img src="assets/svg/skills-logo-bw/visual-logo.svg" alt="JS logo" width="100" height="100">
+            </div>
+            <div class="tools__icons__second">
+              <img src="assets/svg/skills-logo-bw/figma-logo.svg" alt="HTML logo" width="100" height="100">
+              <img src="assets/svg/skills-logo-bw/adobephotoshop-logo.svg" alt="CSS logo" width="100" height="100">
+              <img src="assets/svg/skills-logo-bw/adobeillustrator-logo.svg" alt="JS logo" width="100" height="100">
+            </div>
+          </div>
+        </div>
+        <h2 class="languages__title">languages</h2>
+        <div class="languages__wrapper">
+          <ul class="languages__list">
+            <li><span>English:</span> B2 (Upper-Intermediate)
+              <ul class="english__list">
+                <li>Daily practice in a professional environment<br> with native speakers.</li>
+                <li>Comfortable in written and verbal communication.</li>
+              </ul>
+            </li>
+            <li><span>German:</span> A1</li>
+            <li><span>Russian:</span> Native</li>
+          </ul>
+        </div>
+      </div>
     </div>
     <div class="dark__bgrnd">
-      <div class="third__screen container"></div>
+      <div class="third__screen container">
+        <div class="education__wrapper">
+          <div class="first__education">
+            <span class="education__italic">Saint Petersburg State University of Aerospace and Instrumentation</span>
+            <span class="education__bold">Specialist Diploma in Economic Security,</span>
+            <span>Financial Accounting and Control in Law Enforcement Agencies</span>
+            <span>Sep 2013 - Jun 2018</span>
+            <span><span class="education__bold">UK Framework levels:</span> RQF Level 6 / SCQF Level 10 / CQFW Level</span>
+            <span><span class="education__bold">Comparable UK qualifications:</span> Bachelor (Honours) degree</span>
+          </div>
+          <div class="second__education">
+            <span class="education__italic">Saint Petersburg State University of Aerospace and Instrumentation</span>
+            <span class="education__bold">Bachelor degree, Jurisprudence</span>
+            <span>Sep 2015 - Jun 2019</span>
+            <span><span class="education__bold">UK Framework levels:</span> RQF Level 6 / SCQF Level 10 / CQFW Level</span>
+            <span><span class="education__bold">Comparable UK qualifications:</span> Bachelor (Honours) degree</span>
+          </div>
+        </div>
+        <div class="code__wrapper">
+          <div class="code__text">
+            <pre>
+              <code>
+                document.addEventListener('DOMContentLoaded', () => {
+                  checkAccount();
+                  const charNameOutput = document.getElementById('character__name__output');
+                  const characterName = localStorage.getItem('characterName');
+                 
+                  if (characterName) {
+                    charNameOutput.textContent = characterName;
+                  }
+                  const startFightTextOnBtn = document.querySelector('.start__fight__btn__text');
+
+                  startFightTextOnBtn.addEventListener('click', () => {
+                    window.location.href = '/not-fight-club/battle-page.html';
+                  })
+                });
+              </code>
+            </pre>
+          </div>
+          <div class="code__white__box"></div>
+          <div class="code__green__box"></div>
+        </div>
+        <h2 class="code__title">code example</h2>
+      </div>
     </div>
     <div class="green__bgrnd">
-      <div class="fourth__screen container"></div>
+      <div class="fourth__screen container">
+        <div class="projects__titles">
+          <h2 class="projects__title__dark">Projects</h2>
+          <h2 class="projects__title__white">Projects</h2>
+          <h2 class="projects__title__dark">Projects</h2>
+          <h2 class="projects__title__white">Projects</h2>
+          <h2 class="projects__title__dark">Projects</h2>
+          <h2 class="projects__title__white">Projects</h2>
+          <h2 class="projects__title__dark">Projects</h2>
+          <h2 class="projects__title__white">Projects</h2>
+          <h2 class="projects__title__dark">Projects</h2>
+        </div>
+        <div class="projects__wrapper">
+          <div class="project__box">
+            <div class="project__box__tegs">
+              <div class="tegs__left museum__teg">
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JS</li>
+                </ul>
+              </div>
+              <div class="tegs__right">
+                <ul>
+                  <li><a href="#">Deploy</a></li>
+                  <li><a href="#">GitHub</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="project__box__img museum"></div>
+            <div class="project__box__title">Museum Louvre</div>
+            <div class="project__box__dark"></div>
+          </div>
+          <div class="project__box">
+            <div class="project__box__tegs">
+              <div class="tegs__left">
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JS</li>
+                </ul>
+              </div>
+              <div class="tegs__right">
+                <ul>
+                  <li><a href="#">Deploy</a></li>
+                  <li><a href="#">GitHub</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="project__box__img fight__club"></div>
+            <div class="project__box__title">Not a Fight Club</div>
+            <div class="project__box__dark"></div>
+          </div>
+          <div class="project__box">
+            <div class="project__box__tegs">
+              <div class="tegs__left">
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JS</li>
+                </ul>
+              </div>
+              <div class="tegs__right">
+                <ul>
+                  <li><a href="#">Deploy</a></li>
+                  <li><a href="#">GitHub</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="project__box__img"></div>
+            <div class="project__box__title cv">CV</div>
+            <div class="project__box__dark"></div>
+          </div>
+          <div class="project__box">
+            <div class="project__box__tegs">
+              <div class="tegs__left">
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JS</li>
+                </ul>
+              </div>
+              <div class="tegs__right">
+                <ul>
+                  <li><a href="#">Deploy</a></li>
+                  <li><a href="#">GitHub</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="project__box__img"></div>
+            <div class="project__box__title"></div>
+            <div class="project__box__dark"></div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="white__bgrnd">
       <div class="fifth__screen container"></div>
     </div>
   </main>
-  <footer class="footer">
-    <div class="container">
+  <footer>
+    <div class="footer container">
       <div class="footer__left">
         <p>&copy; 2025</p>
         <a href="https://github.com/dukhd" class="footer__link__github" title="GitHub">dukhd</a>

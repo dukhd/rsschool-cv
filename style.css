@@ -12,7 +12,9 @@
   font-weight: 300;
   font-style: normal;
 } */
-
+button {
+  all: unset;
+}
 :root {
   --color-dark: #161616;
   --color-white: #EFEEEC;
@@ -392,6 +394,8 @@ h3 {
 .skills__title__wrapper {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  overflow-x: hidden;
 }
 .skills__title {
   /* position: absolute;
@@ -481,6 +485,20 @@ h3 {
 /* second screen end ------------------ */
 .third__screen {
   height: 1362px;
+  position: relative;
+}
+.education__title {
+  color: var(--color-white);
+  font-family: "Roboto", sans-serif;
+  font-size: 128px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0;
+  width: 742px;
+  transform: rotate(90deg);
+  position: absolute;
+  right: -330px;
+  top: 140px;
 }
 .education__wrapper {
   width: 589px;
@@ -659,12 +677,10 @@ code {
   font-weight: 400;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   width: 510px;
 }
-.tegs__left {
 
-}
 .tegs__left ul {
   padding: 0;
   text-decoration: none;
@@ -739,8 +755,32 @@ code {
 
 .fifth__screen {
   height: 1252px;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
+.fifth__screen p {
+  margin: 0;
+  padding: 0;
+  color: var(--color-green);
+  font-size: 64px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  line-height: 45px;
+  opacity: 60%;
+}
+.extra__experience__title {
+  margin: 0;
+  margin-top: 15px;
+  color: var(--color-green);
+  font-size: 128px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  line-height: 90px;
+}
 /* fifth screen end ---------------- */
 /* footer start------------- */
 .footer {

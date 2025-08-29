@@ -646,7 +646,7 @@ code {
   height: 350px;
   background: var(--color-dark);
 }
-/* norm */
+
 .project__box__tegs { 
   position: absolute;
   z-index: 3;
@@ -658,7 +658,6 @@ code {
   width: 510px;
 }
 
-/* norm */
 .project__box__tegs ul {
   padding: 0;
   text-decoration: none;
@@ -668,7 +667,6 @@ code {
   gap: 15px;
 }
 
-/* norm */
 .project__box__tegs a {
   text-decoration: none;
   list-style: none;
@@ -712,6 +710,7 @@ code {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 400;
+  text-transform: uppercase;
 }
 .tegs__right ul {
   margin: 0;
@@ -753,11 +752,13 @@ code {
 /* fourth screen end ---------------- */
 
 .fifth__screen {
-  height: 1252px;
+  margin: 0 auto;
+  height: 820px;
   padding-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 .fifth__screen p {
   margin: 0;
@@ -784,7 +785,131 @@ code {
 .extra__experience__wrapper {
   margin-top: 80px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 80px;
+}
+
+.extra__experience__box {
+  width: 590px;
+  height: 390px;
+  position: relative;
+
+}
+.extra__experience__box__img {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 550px;
+  height: 350px;
+  background: var(--color-light);
+}
+.dream_factory {
+  background-image: url(assets/png/extra-exp/dream-factory.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.veske {
+  background-image: url(assets/png/extra-exp/veske.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nu__ansr {
+  background-image: url(assets/png/extra-exp/nuansr.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sens {
+  background-image: url(assets/png/extra-exp/5sens.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.extra__experience__box__dark {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  width: 550px;
+  height: 350px;
+  background: var(--color-green);
+}
+
+.extra__experience__box__tegs {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 520px;
+  position: absolute;
+  z-index: 3;
+  bottom: 50px;
+  left: 10px;
+}
+
+.extra__exp__tegs__right ul {
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.extra__exp__tegs__right a {
+  text-decoration: none;
+  list-style: none;
+  color: var(--color-light);
+  padding: 10px 15px;
+  border-radius: 50px;
+  background: var(--color-green);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+.extra__exp__tegs__left ul {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.extra__exp__tegs__left li {
+  display: inline-flex;
+  padding: 3px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 50px;
+  background: var(--color-dark);
+  color: var(--color-light);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+.nu__ansr__teg li {
+  background: var(--color-light);
+  color: var(--color-dark);
+}
+
+.extra__experience__box__title {
+  position: absolute;
+  z-index: 2;
+  bottom: 9px;
+  left: 50px;
+  color: var(--color-light);
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 /* fifth screen end ---------------- */
 /* footer start------------- */

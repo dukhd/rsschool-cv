@@ -20,6 +20,7 @@ button {
   --color-white: #EFEEEC;
   --color-light: #C6C6C6;
   --color-green: #4F5B4F;
+  --color-red: #4A2326;
 }
 
 html {
@@ -94,6 +95,9 @@ p {
   text-decoration: none;
   color: var(--color-white);
 }
+.nav__item a:hover {
+  text-decoration: underline;
+}
 .nav__item:last-child {
   margin-bottom: 0;
 }
@@ -135,6 +139,9 @@ h3 {
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
+}
+.contact__me__btn:hover {
+  background: var(--color-red);
 }
 .main__screen__photo__container {
   position: absolute;
@@ -219,6 +226,9 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.mail__link:hover {
+  background-image: url(assets/svg/social-media-red/gmail-logo.svg);
+}
 .github__link {
   display: inline-block;
   width: 40px;
@@ -227,6 +237,9 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.github__link:hover {
+  background-image: url(assets/svg/social-media-red/github-logo.svg);
 }
 .linkedin__link {
   display: inline-block;
@@ -237,6 +250,9 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.linkedin__link:hover {
+  background-image: url(assets/svg/social-media-red/linkedin-logo.svg);
+}
 .discord__link {
   display: inline-block;
   width: 40px;
@@ -245,6 +261,9 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.discord__link:hover {
+  background-image: url(assets/svg/social-media-red/discord-logo.svg);
 }
 /* header end ------------------------------- */
 .first__screen {
@@ -683,7 +702,9 @@ code {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
 }
-
+.project__box__tegs a:hover {
+  background: var(--color-red);
+}
 .project__box__img {
   position: absolute;
   z-index: 2;
@@ -870,6 +891,9 @@ code {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
 }
+.extra__exp__tegs__right a:hover {
+  background: var(--color-red);
+}
 
 .extra__exp__tegs__left ul {
   margin: 0;
@@ -911,6 +935,36 @@ code {
   font-weight: 400;
   text-transform: uppercase;
 }
+
+.pagination {
+  margin: 50px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.pag__arrow__prev,
+.pag__arrow__next {
+  width: 15px;
+  height: 26px;
+}
+.pag__arrow__prev:hover,
+.pag__arrow__next:hover {
+
+}
+.pag__item {
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-green);
+}
+
+.pag__item:hover {
+  background-color: var(--color-red);
+}
+.pag__item:active {
+  background-color: var(--color-white);
+  
+}
 /* fifth screen end ---------------- */
 /* footer start------------- */
 .footer {
@@ -936,6 +990,9 @@ code {
 .footer__left a {
   text-decoration: none;
 }
+.footer__left a:hover {
+  text-decoration: underline;
+}
 .rs__school__logo {
   width: 125px;
   height: 46px;
@@ -943,4 +1000,7 @@ code {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.rs__school__logo:hover {
+  background-image: url(assets/svg/rs-school-logo-hover.svg);
 }

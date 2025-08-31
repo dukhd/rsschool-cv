@@ -873,18 +873,25 @@ code {
 }
 
 .extra__experience__wrapper {
+  max-width: 1260px;
   margin-top: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 80px;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
 }
 
 .extra__experience__box {
   width: 590px;
   height: 390px;
   position: relative;
+  scroll-snap-align: start;
 
+}
+.extra__experience__box.hidden {
+  display: none;
 }
 .extra__experience__box__img {
   position: absolute;

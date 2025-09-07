@@ -2,7 +2,7 @@
 
 ## Contact Information
 **Email:** k.dianavv@gmail.com   
-**Discord:** Diana D(@dukhd)    
+**Discord:** kresska
 
 ## Brief Self-Introduction
 Detail-oriented and analytical professional with 3+ years’ experience in operations and workflow management. Skilled at problem-solving, organizing processes, and collaborating with teams. Currently transitioning into front-end development, building practical projects and strengthening technical skills.

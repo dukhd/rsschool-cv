@@ -148,7 +148,7 @@ h3 {
   text-transform: uppercase;
   margin: 0;
 }
-.contact__me__btn {
+.my-projects__btn {
   margin-top: 60px;
   display: inline-flex;
   padding: 15px 40px;
@@ -163,8 +163,9 @@ h3 {
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
+  text-decoration: none;
 }
-.contact__me__btn:hover {
+.my-projects__btn:hover {
   background: var(--color-red);
 }
 .main__screen__photo__container {

@@ -51,5 +51,5 @@ Sep 2015 - Jun 2019
 - **English**: B2 (Upper-Intermediate)
     + Daily practice in a professional environment with native speakers.
     + Comfortable in written and verbal communication.
-- **German**: A1
-- **Russian**: Native
+- **Russian:** Native
+- **Ukrainian:** B1-B2 (reading/listening), A2 (speaking)

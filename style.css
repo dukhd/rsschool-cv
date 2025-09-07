@@ -160,7 +160,7 @@ h3 {
   color: var(--color-white);
   font-family: "Exo", sans-serif;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
@@ -202,16 +202,33 @@ h3 {
 .social__media__location {
   position: absolute;
   z-index: 2;
-  top: 780px;
+  top: 750px;
   right: -30px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 15px;
+}
+.discord__wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.discord__icon {
+  width: 20px;
+  height: 20px;
+}
+.discord__username {
+  color: var(--color-white);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
 }
 .social__media__wrapper {
   height: 40px;
   width: 280px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .social__media__list {
   list-style: none;
@@ -240,7 +257,7 @@ h3 {
   color: var(--color-white);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
 }
 .mail__link {
